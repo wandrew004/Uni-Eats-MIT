@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Eats</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="green-rectangle">
+        Uni-Eats
+    </div>
+    <div class="info">
+        <p class="school"> Boston University </p>
+        <p class="location"></p>
+    </div>
+    <div class="calorie-input">
+        <label for="calories">Enter calorie amount:</label>
+        <input type="number" id="calories">
+    </div>
+    <button id="regenerate">Regenerate</button>
+    <div class="menu">
+        <p class="entree">Entree: </p>
+        <p class="appetizer">Appetizer: </p>
+        <p class="desert">Desert: </p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

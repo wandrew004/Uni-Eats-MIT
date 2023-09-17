@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #4CAF50;
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;  /* Padding on the sides */
+}
+
+.space-y-medium > * + * {
+  margin-top: 20px;
+}
+
+.space-y-large > * + * {
+  margin-top: 40px;
+}
+
+.app-header {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 3rem;
+  border-radius: 3rem; 
+}
+
+.calories-section {
+  padding: 20px;
+  background-color: #f7f9fc; /* A light shade of blue for contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  border-radius: 3rem; 
+}
+
+.school-section {
+  padding: 20px;
+  background-color: #f2f5f8; /* A lighter shade for subtle contrast */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  border-radius: 3rem; 
+}
+
+.bodysection-list {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.foodsection-list h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.button, button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover, button:hover {
+  background-color: #0056b3;
+}
+
+.app-container{ 
+  margin: 10px ;
+  border-radius:3rem ; 
+
+
+}
